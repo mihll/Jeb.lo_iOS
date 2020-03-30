@@ -7,11 +7,13 @@
 //
 
 import SwiftUI
+import SwiftUIRefresh
 
 struct NowTab: View {
     @State private var selectedOption = 0
+    @State private var isShowing = false
     var body: some View {
-        NavigationView {
+        NavigationView(){
             VStack(){
                 Picker(selection: $selectedOption, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
                     Text("Lokalizacja").tag(0)
@@ -19,10 +21,15 @@ struct NowTab: View {
                 }.padding().pickerStyle(SegmentedPickerStyle())
                 List {
                 /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Content@*/Text("Content")/*@END_MENU_TOKEN@*/
+                }.pullToRefresh(isShowing: $isShowing) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                        self.isShowing = false
+                    }
                 }
             }.navigationBarTitle("Teraz")
         }.navigationViewStyle(StackNavigationViewStyle())
     }
+    
 }
 
 struct NowTab_Previews: PreviewProvider {
