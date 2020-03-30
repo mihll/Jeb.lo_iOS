@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E124323AD300BF40F5 /* AppDelegate.swift */; };
+		059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E324323AD300BF40F5 /* SceneDelegate.swift */; };
+		059555E624323AD300BF40F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E524323AD300BF40F5 /* ContentView.swift */; };
+		059555E824323AD600BF40F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059555E724323AD600BF40F5 /* Assets.xcassets */; };
+		059555EB24323AD600BF40F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059555EA24323AD600BF40F5 /* Preview Assets.xcassets */; };
+		059555EE24323AD600BF40F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059555EC24323AD600BF40F5 /* LaunchScreen.storyboard */; };
+		059555F924323AD600BF40F5 /* Jeb_loTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555F824323AD600BF40F5 /* Jeb_loTests.swift */; };
+		0595560424323AD600BF40F5 /* Jeb_loUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595560324323AD600BF40F5 /* Jeb_loUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059555F524323AD600BF40F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059555D624323AD200BF40F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059555DD24323AD300BF40F5;
+			remoteInfo = Jeb.lo;
+		};
+		0595560024323AD600BF40F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059555D624323AD200BF40F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059555DD24323AD300BF40F5;
+			remoteInfo = Jeb.lo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059555DE24323AD300BF40F5 /* Jeb.lo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeb.lo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		059555E124323AD300BF40F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		059555E324323AD300BF40F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		059555E524323AD300BF40F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		059555E724323AD600BF40F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		059555EA24323AD600BF40F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		059555ED24323AD600BF40F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		059555EF24323AD600BF40F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059555F424323AD600BF40F5 /* Jeb.loTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jeb.loTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059555F824323AD600BF40F5 /* Jeb_loTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeb_loTests.swift; sourceTree = "<group>"; };
+		059555FA24323AD600BF40F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059555FF24323AD600BF40F5 /* Jeb.loUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jeb.loUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0595560324323AD600BF40F5 /* Jeb_loUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeb_loUITests.swift; sourceTree = "<group>"; };
+		0595560524323AD600BF40F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059555DB24323AD300BF40F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059555F124323AD600BF40F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059555FC24323AD600BF40F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059555D524323AD200BF40F5 = {
+			isa = PBXGroup;
+			children = (
+				059555E024323AD300BF40F5 /* Jeb.lo */,
+				059555F724323AD600BF40F5 /* Jeb.loTests */,
+				0595560224323AD600BF40F5 /* Jeb.loUITests */,
+				059555DF24323AD300BF40F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059555DF24323AD300BF40F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059555DE24323AD300BF40F5 /* Jeb.lo.app */,
+				059555F424323AD600BF40F5 /* Jeb.loTests.xctest */,
+				059555FF24323AD600BF40F5 /* Jeb.loUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059555E024323AD300BF40F5 /* Jeb.lo */ = {
+			isa = PBXGroup;
+			children = (
+				059555E124323AD300BF40F5 /* AppDelegate.swift */,
+				059555E324323AD300BF40F5 /* SceneDelegate.swift */,
+				059555E524323AD300BF40F5 /* ContentView.swift */,
+				059555E724323AD600BF40F5 /* Assets.xcassets */,
+				059555EC24323AD600BF40F5 /* LaunchScreen.storyboard */,
+				059555EF24323AD600BF40F5 /* Info.plist */,
+				059555E924323AD600BF40F5 /* Preview Content */,
+			);
+			path = Jeb.lo;
+			sourceTree = "<group>";
+		};
+		059555E924323AD600BF40F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				059555EA24323AD600BF40F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		059555F724323AD600BF40F5 /* Jeb.loTests */ = {
+			isa = PBXGroup;
+			children = (
+				059555F824323AD600BF40F5 /* Jeb_loTests.swift */,
+				059555FA24323AD600BF40F5 /* Info.plist */,
+			);
+			path = Jeb.loTests;
+			sourceTree = "<group>";
+		};
+		0595560224323AD600BF40F5 /* Jeb.loUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0595560324323AD600BF40F5 /* Jeb_loUITests.swift */,
+				0595560524323AD600BF40F5 /* Info.plist */,
+			);
+			path = Jeb.loUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059555DD24323AD300BF40F5 /* Jeb.lo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0595560824323AD600BF40F5 /* Build configuration list for PBXNativeTarget "Jeb.lo" */;
+			buildPhases = (
+				059555DA24323AD300BF40F5 /* Sources */,
+				059555DB24323AD300BF40F5 /* Frameworks */,
+				059555DC24323AD300BF40F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeb.lo;
+			productName = Jeb.lo;
+			productReference = 059555DE24323AD300BF40F5 /* Jeb.lo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		059555F324323AD600BF40F5 /* Jeb.loTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0595560B24323AD600BF40F5 /* Build configuration list for PBXNativeTarget "Jeb.loTests" */;
+			buildPhases = (
+				059555F024323AD600BF40F5 /* Sources */,
+				059555F124323AD600BF40F5 /* Frameworks */,
+				059555F224323AD600BF40F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059555F624323AD600BF40F5 /* PBXTargetDependency */,
+			);
+			name = Jeb.loTests;
+			productName = Jeb.loTests;
+			productReference = 059555F424323AD600BF40F5 /* Jeb.loTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		059555FE24323AD600BF40F5 /* Jeb.loUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0595560E24323AD600BF40F5 /* Build configuration list for PBXNativeTarget "Jeb.loUITests" */;
+			buildPhases = (
+				059555FB24323AD600BF40F5 /* Sources */,
+				059555FC24323AD600BF40F5 /* Frameworks */,
+				059555FD24323AD600BF40F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0595560124323AD600BF40F5 /* PBXTargetDependency */,
+			);
+			name = Jeb.loUITests;
+			productName = Jeb.loUITests;
+			productReference = 059555FF24323AD600BF40F5 /* Jeb.loUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		059555D624323AD200BF40F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Michał Kierzkowski";
+				TargetAttributes = {
+					059555DD24323AD300BF40F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					059555F324323AD600BF40F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 059555DD24323AD300BF40F5;
+					};
+					059555FE24323AD600BF40F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 059555DD24323AD300BF40F5;
+					};
+				};
+			};
+			buildConfigurationList = 059555D924323AD200BF40F5 /* Build configuration list for PBXProject "Jeb.lo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 059555D524323AD200BF40F5;
+			productRefGroup = 059555DF24323AD300BF40F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059555DD24323AD300BF40F5 /* Jeb.lo */,
+				059555F324323AD600BF40F5 /* Jeb.loTests */,
+				059555FE24323AD600BF40F5 /* Jeb.loUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		059555DC24323AD300BF40F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059555EE24323AD600BF40F5 /* LaunchScreen.storyboard in Resources */,
+				059555EB24323AD600BF40F5 /* Preview Assets.xcassets in Resources */,
+				059555E824323AD600BF40F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059555F224323AD600BF40F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059555FD24323AD600BF40F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059555DA24323AD300BF40F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */,
+				059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */,
+				059555E624323AD300BF40F5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059555F024323AD600BF40F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059555F924323AD600BF40F5 /* Jeb_loTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059555FB24323AD600BF40F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0595560424323AD600BF40F5 /* Jeb_loUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		059555F624323AD600BF40F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059555DD24323AD300BF40F5 /* Jeb.lo */;
+			targetProxy = 059555F524323AD600BF40F5 /* PBXContainerItemProxy */;
+		};
+		0595560124323AD600BF40F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059555DD24323AD300BF40F5 /* Jeb.lo */;
+			targetProxy = 0595560024323AD600BF40F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		059555EC24323AD600BF40F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059555ED24323AD600BF40F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0595560624323AD600BF40F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0595560724323AD600BF40F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0595560924323AD600BF40F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jeb.lo/Preview Content\"";
+				DEVELOPMENT_TEAM = A3L6H69MKS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jeb.lo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mKierzkowski.Jeb-lo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0595560A24323AD600BF40F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jeb.lo/Preview Content\"";
+				DEVELOPMENT_TEAM = A3L6H69MKS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jeb.lo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mKierzkowski.Jeb-lo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0595560C24323AD600BF40F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3L6H69MKS;
+				INFOPLIST_FILE = Jeb.loTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mKierzkowski.Jeb-loTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jeb.lo.app/Jeb.lo";
+			};
+			name = Debug;
+		};
+		0595560D24323AD600BF40F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3L6H69MKS;
+				INFOPLIST_FILE = Jeb.loTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mKierzkowski.Jeb-loTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jeb.lo.app/Jeb.lo";
+			};
+			name = Release;
+		};
+		0595560F24323AD600BF40F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3L6H69MKS;
+				INFOPLIST_FILE = Jeb.loUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mKierzkowski.Jeb-loUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jeb.lo;
+			};
+			name = Debug;
+		};
+		0595561024323AD600BF40F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3L6H69MKS;
+				INFOPLIST_FILE = Jeb.loUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mKierzkowski.Jeb-loUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jeb.lo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059555D924323AD200BF40F5 /* Build configuration list for PBXProject "Jeb.lo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0595560624323AD600BF40F5 /* Debug */,
+				0595560724323AD600BF40F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0595560824323AD600BF40F5 /* Build configuration list for PBXNativeTarget "Jeb.lo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0595560924323AD600BF40F5 /* Debug */,
+				0595560A24323AD600BF40F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0595560B24323AD600BF40F5 /* Build configuration list for PBXNativeTarget "Jeb.loTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0595560C24323AD600BF40F5 /* Debug */,
+				0595560D24323AD600BF40F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0595560E24323AD600BF40F5 /* Build configuration list for PBXNativeTarget "Jeb.loUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0595560F24323AD600BF40F5 /* Debug */,
+				0595561024323AD600BF40F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 059555D624323AD200BF40F5 /* Project object */;
+}
