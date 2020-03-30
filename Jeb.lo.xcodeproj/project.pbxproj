@@ -19,6 +19,7 @@
 		05955614243244AB00BF40F5 /* LinesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955613243244AB00BF40F5 /* LinesTab.swift */; };
 		05955616243244BA00BF40F5 /* StatsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955615243244BA00BF40F5 /* StatsTab.swift */; };
 		05955618243244C100BF40F5 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955617243244C100BF40F5 /* ProfileTab.swift */; };
+		0595561A24324B6C00BF40F5 /* LineDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595561924324B6C00BF40F5 /* LineDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		05955613243244AB00BF40F5 /* LinesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesTab.swift; sourceTree = "<group>"; };
 		05955615243244BA00BF40F5 /* StatsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTab.swift; sourceTree = "<group>"; };
 		05955617243244C100BF40F5 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
+		0595561924324B6C00BF40F5 /* LineDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				059555E924323AD600BF40F5 /* Preview Content */,
 				059556112432423D00BF40F5 /* NowTab.swift */,
 				05955613243244AB00BF40F5 /* LinesTab.swift */,
+				0595561924324B6C00BF40F5 /* LineDetails.swift */,
 				05955615243244BA00BF40F5 /* StatsTab.swift */,
 				05955617243244C100BF40F5 /* ProfileTab.swift */,
 			);
@@ -281,6 +284,7 @@
 			files = (
 				059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */,
 				05955614243244AB00BF40F5 /* LinesTab.swift in Sources */,
+				0595561A24324B6C00BF40F5 /* LineDetails.swift in Sources */,
 				059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */,
 				05955618243244C100BF40F5 /* ProfileTab.swift in Sources */,
 				059556122432423D00BF40F5 /* NowTab.swift in Sources */,

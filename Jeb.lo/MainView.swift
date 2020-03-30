@@ -54,6 +54,10 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        ForEach(["iPhone 7", "iPad Pro (11-inch)"], id: \.self) { deviceName in
+            MainView()
+                .previewDevice(PreviewDevice(rawValue: deviceName))
+                .previewDisplayName(deviceName)
+        }
     }
 }
