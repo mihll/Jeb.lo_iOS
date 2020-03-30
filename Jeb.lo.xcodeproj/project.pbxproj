@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E124323AD300BF40F5 /* AppDelegate.swift */; };
 		059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E324323AD300BF40F5 /* SceneDelegate.swift */; };
-		059555E624323AD300BF40F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E524323AD300BF40F5 /* ContentView.swift */; };
+		059555E624323AD300BF40F5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E524323AD300BF40F5 /* MainView.swift */; };
 		059555E824323AD600BF40F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059555E724323AD600BF40F5 /* Assets.xcassets */; };
 		059555EB24323AD600BF40F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059555EA24323AD600BF40F5 /* Preview Assets.xcassets */; };
 		059555EE24323AD600BF40F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059555EC24323AD600BF40F5 /* LaunchScreen.storyboard */; };
 		059555F924323AD600BF40F5 /* Jeb_loTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555F824323AD600BF40F5 /* Jeb_loTests.swift */; };
 		0595560424323AD600BF40F5 /* Jeb_loUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595560324323AD600BF40F5 /* Jeb_loUITests.swift */; };
+		059556122432423D00BF40F5 /* NowTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059556112432423D00BF40F5 /* NowTab.swift */; };
+		05955614243244AB00BF40F5 /* LinesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955613243244AB00BF40F5 /* LinesTab.swift */; };
+		05955616243244BA00BF40F5 /* StatsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955615243244BA00BF40F5 /* StatsTab.swift */; };
+		05955618243244C100BF40F5 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955617243244C100BF40F5 /* ProfileTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		059555DE24323AD300BF40F5 /* Jeb.lo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeb.lo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059555E124323AD300BF40F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059555E324323AD300BF40F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		059555E524323AD300BF40F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		059555E524323AD300BF40F5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		059555E724323AD600BF40F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059555EA24323AD600BF40F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		059555ED24323AD600BF40F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		059555FF24323AD600BF40F5 /* Jeb.loUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jeb.loUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0595560324323AD600BF40F5 /* Jeb_loUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeb_loUITests.swift; sourceTree = "<group>"; };
 		0595560524323AD600BF40F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059556112432423D00BF40F5 /* NowTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTab.swift; sourceTree = "<group>"; };
+		05955613243244AB00BF40F5 /* LinesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesTab.swift; sourceTree = "<group>"; };
+		05955615243244BA00BF40F5 /* StatsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTab.swift; sourceTree = "<group>"; };
+		05955617243244C100BF40F5 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				059555E124323AD300BF40F5 /* AppDelegate.swift */,
 				059555E324323AD300BF40F5 /* SceneDelegate.swift */,
-				059555E524323AD300BF40F5 /* ContentView.swift */,
+				059555E524323AD300BF40F5 /* MainView.swift */,
 				059555E724323AD600BF40F5 /* Assets.xcassets */,
 				059555EC24323AD600BF40F5 /* LaunchScreen.storyboard */,
 				059555EF24323AD600BF40F5 /* Info.plist */,
 				059555E924323AD600BF40F5 /* Preview Content */,
+				059556112432423D00BF40F5 /* NowTab.swift */,
+				05955613243244AB00BF40F5 /* LinesTab.swift */,
+				05955615243244BA00BF40F5 /* StatsTab.swift */,
+				05955617243244C100BF40F5 /* ProfileTab.swift */,
 			);
 			path = Jeb.lo;
 			sourceTree = "<group>";
@@ -268,8 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */,
+				05955614243244AB00BF40F5 /* LinesTab.swift in Sources */,
 				059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */,
-				059555E624323AD300BF40F5 /* ContentView.swift in Sources */,
+				05955618243244C100BF40F5 /* ProfileTab.swift in Sources */,
+				059556122432423D00BF40F5 /* NowTab.swift in Sources */,
+				059555E624323AD300BF40F5 /* MainView.swift in Sources */,
+				05955616243244BA00BF40F5 /* StatsTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
