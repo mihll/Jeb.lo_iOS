@@ -20,7 +20,7 @@
 		05955616243244BA00BF40F5 /* StatsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955615243244BA00BF40F5 /* StatsTab.swift */; };
 		05955618243244C100BF40F5 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955617243244C100BF40F5 /* ProfileTab.swift */; };
 		0595561A24324B6C00BF40F5 /* LineDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595561924324B6C00BF40F5 /* LineDetails.swift */; };
-		0595561D243253F300BF40F5 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 0595561C243253F300BF40F5 /* SwiftUIPullToRefresh */; };
+		05984229243B7E3F00D29C53 /* UserPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05984228243B7E3F00D29C53 /* UserPosts.swift */; };
 		05A41EB624325627005F7380 /* SwiftUIRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 05A41EB524325627005F7380 /* SwiftUIRefresh */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +61,7 @@
 		05955615243244BA00BF40F5 /* StatsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTab.swift; sourceTree = "<group>"; };
 		05955617243244C100BF40F5 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
 		0595561924324B6C00BF40F5 /* LineDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDetails.swift; sourceTree = "<group>"; };
+		05984228243B7E3F00D29C53 /* UserPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A41EB624325627005F7380 /* SwiftUIRefresh in Frameworks */,
-				0595561D243253F300BF40F5 /* SwiftUIPullToRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +125,7 @@
 				0595561924324B6C00BF40F5 /* LineDetails.swift */,
 				05955615243244BA00BF40F5 /* StatsTab.swift */,
 				05955617243244C100BF40F5 /* ProfileTab.swift */,
+				05984228243B7E3F00D29C53 /* UserPosts.swift */,
 			);
 			path = Jeb.lo;
 			sourceTree = "<group>";
@@ -172,7 +173,6 @@
 			);
 			name = Jeb.lo;
 			packageProductDependencies = (
-				0595561C243253F300BF40F5 /* SwiftUIPullToRefresh */,
 				05A41EB524325627005F7380 /* SwiftUIRefresh */,
 			);
 			productName = Jeb.lo;
@@ -248,7 +248,6 @@
 			);
 			mainGroup = 059555D524323AD200BF40F5;
 			packageReferences = (
-				0595561B243253F300BF40F5 /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */,
 				05A41EB424325627005F7380 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */,
 			);
 			productRefGroup = 059555DF24323AD300BF40F5 /* Products */;
@@ -294,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05984229243B7E3F00D29C53 /* UserPosts.swift in Sources */,
 				059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */,
 				05955614243244AB00BF40F5 /* LinesTab.swift in Sources */,
 				0595561A24324B6C00BF40F5 /* LineDetails.swift in Sources */,
@@ -628,14 +628,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0595561B243253F300BF40F5 /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/SwiftUI-PullToRefresh";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		05A41EB424325627005F7380 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/timbersoftware/SwiftUIRefresh.git";
@@ -647,11 +639,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0595561C243253F300BF40F5 /* SwiftUIPullToRefresh */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0595561B243253F300BF40F5 /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */;
-			productName = SwiftUIPullToRefresh;
-		};
 		05A41EB524325627005F7380 /* SwiftUIRefresh */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 05A41EB424325627005F7380 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */;

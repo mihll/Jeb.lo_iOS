@@ -21,6 +21,18 @@ struct LinesTab: View {
                     NavigationLink(destination: LineDetails(line: "1")){
                         Text("1")
                     }
+                    NavigationLink(destination: LineDetails(line: "2")){
+                        Text("2")
+                    }
+                    NavigationLink(destination: LineDetails(line: "4")){
+                        Text("4")
+                    }
+                    NavigationLink(destination: LineDetails(line: "5")){
+                        Text("5")
+                    }
+                    NavigationLink(destination: LineDetails(line: "6")){
+                        Text("6")
+                    }
                 }
             }.navigationBarTitle("Linie")
         }.navigationViewStyle(StackNavigationViewStyle())
@@ -29,7 +41,7 @@ struct LinesTab: View {
 
 struct LinesTab_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone 7", "iPad Pro (11-inch)"], id: \.self) { deviceName in
+         ForEach(["iPhone 7","iPhone 11"], id: \.self) { deviceName in
             LinesTab()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)

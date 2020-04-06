@@ -16,6 +16,10 @@ struct StatsTab: View {
 
 struct StatsTab_Previews: PreviewProvider {
     static var previews: some View {
-        StatsTab()
+        ForEach(["iPhone 7","iPhone 11"], id: \.self) { deviceName in
+            StatsTab()
+                .previewDevice(PreviewDevice(rawValue: deviceName))
+                .previewDisplayName(deviceName)
+        }
     }
 }
