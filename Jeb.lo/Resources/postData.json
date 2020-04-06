@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1001,
+        "place": "Arkady od strony Renomy",
+        "status": "Aktualny",
+        "stop": "Arkady Capitol",
+        "line": "0L",
+        "addedDate": "18:30, 20-03-2020",
+        "addedUser": "mihll",
+        "description": "Ojojoj co tu się stało.",
+        "upvotes": 10,
+        "downvotes": 5,
+        "imageName": "jeb1",
+        "coordinates": {
+            "longitude": 51.101465,
+            "latitude": 17.029283
+        }
+    },
+    {
+        "id": 1002,
+        "place": "Plac Grunwaldzki od strony mostu",
+        "status": "Zakończony",
+        "stop": "Plac Grunwaldzki",
+        "line": "4",
+        "addedDate": "19:30, 20-03-2020",
+        "addedUser": "mihll",
+        "description": "Ojojoj co tu się stało.",
+        "upvotes": 15,
+        "downvotes": 3,
+        "imageName": "jeb2",
+        "coordinates": {
+            "longitude": 51.111069,
+            "latitude": 17.058670
+        }
+    },
+    {
+        "id": 1003,
+        "place": "Plac Grunwaldzki od strony mostu",
+        "status": "Zakończony",
+        "stop": "Plac Grunwaldzki",
+        "line": "4",
+        "addedDate": "19:30, 20-03-2020",
+        "addedUser": "mihll",
+        "description": "Ojojoj co tu się stało.",
+        "upvotes": 15,
+        "downvotes": 3,
+        "imageName": "jeb2",
+        "coordinates": {
+            "longitude": 51.111069,
+            "latitude": 17.058670
+        }
+    }
+]
