@@ -10,18 +10,18 @@ import SwiftUI
 import SwiftUIRefresh
 
 struct NowTab: View {
-    @State private var selectedOption = 0
+    @State private var selectedOption = postData
     @State private var isShowing = false
     var body: some View {
         NavigationView(){
             VStack(){
                 Picker(selection: $selectedOption, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-                    Text("Lokalizacja").tag(0)
-                    Text("Ulubione linie").tag(1)
+                    Text("Lokalizacja").tag(postData)
+                    Text("Ulubione").tag(postDataFav)
                 }.padding().pickerStyle(SegmentedPickerStyle())
                 
                 List(){
-                    ForEach(postData){ post in
+                    ForEach(selectedOption){ post in
                     PostRow(post: post)
                     .listRowInsets(EdgeInsets())
                     }

@@ -4,6 +4,7 @@ import SwiftUI
 import CoreLocation
 
 let postData: [Post] = load("postData.json")
+let postDataFav: [Post] = load("postDataFav.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
