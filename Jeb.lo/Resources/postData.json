@@ -35,16 +35,16 @@
     },
     {
         "id": 1003,
-        "place": "Plac Grunwaldzki od strony mostu",
+        "place": "Skrzyżowanie Paderewskiego i 8 Maja",
         "status": "Zakończony",
-        "stop": "Plac Grunwaldzki",
-        "line": "4",
+        "stop": "Nieznany",
+        "line": "9",
         "addedDate": "19:30, 20-03-2020",
         "addedUser": "mihll",
         "description": "Ojojoj co tu się stało.",
-        "upvotes": 15,
+        "upvotes": 1,
         "downvotes": 3,
-        "imageName": "jeb2",
+        "imageName": "jeb3",
         "coordinates": {
             "longitude": 51.111069,
             "latitude": 17.058670
