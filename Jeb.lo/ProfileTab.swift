@@ -30,7 +30,7 @@ struct ProfileTab: View {
                         
                         Text("05 marca 2020")
                             .font(.subheadline)
-                    }
+                    }.padding()
                 }
                 
                 HStack(){
@@ -59,7 +59,7 @@ struct ProfileTab: View {
                 
                 Text("Osiągnięcia")
                     .font(.largeTitle)
-                    .padding()
+                    .padding(.top)
                 
                 List {
                 /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Content@*/Text("Content")/*@END_MENU_TOKEN@*/
