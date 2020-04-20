@@ -9,16 +9,16 @@
 import SwiftUI
 
 struct LineDetails: View {
-    let line: LocalizedStringKey
+    let line: Line
     var body: some View {
         VStack(){
             Text("Line details")
-        }.navigationBarTitle(line, displayMode: .inline)
+        }.navigationBarTitle(Text(line.id), displayMode: .inline)
     }
 }
 
 struct LineDetails_Previews: PreviewProvider {
     static var previews: some View {
-        LineDetails(line: "1")
+        LineDetails(line: lineData[0])
     }
 }

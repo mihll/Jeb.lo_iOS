@@ -5,6 +5,7 @@ import CoreLocation
 
 let postData: [Post] = load("postData.json")
 let postDataFav: [Post] = load("postDataFav.json")
+let lineData: [Line] = load("lineData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

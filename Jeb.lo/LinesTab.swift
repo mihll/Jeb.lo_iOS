@@ -9,29 +9,17 @@
 import SwiftUI
 
 struct LinesTab: View {
-    @State private var selectedOption = 0
+    @State private var selectedOption = lineData.filter{$0.type == "T"}
     var body: some View {
         NavigationView {
             VStack(){
                 Picker(selection: $selectedOption, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-                    Text("Tramwaje").tag(0)
-                    Text("Autobusy").tag(1)
+                    Text("Tramwaje").tag(lineData.filter{$0.type == "T"})
+                    Text("Autobusy").tag(lineData.filter{$0.type == "B"})
                 }.padding().pickerStyle(SegmentedPickerStyle())
-                List{
-                    NavigationLink(destination: LineDetails(line: "1")){
-                        Text("1")
-                    }
-                    NavigationLink(destination: LineDetails(line: "2")){
-                        Text("2")
-                    }
-                    NavigationLink(destination: LineDetails(line: "4")){
-                        Text("4")
-                    }
-                    NavigationLink(destination: LineDetails(line: "5")){
-                        Text("5")
-                    }
-                    NavigationLink(destination: LineDetails(line: "6")){
-                        Text("6")
+                List(selectedOption) { line in
+                    NavigationLink(destination: LineDetails(line: line)){
+                        Text(line.id)
                     }
                 }
             }.navigationBarTitle("Linie")
