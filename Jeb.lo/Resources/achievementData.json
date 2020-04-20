@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Pogromca Tramwajów",
+		"description": "Uzyskaj ponad 100 polubień przy zgłoszeniach tramwajów.",
+		"date": "20.04.2020",
+		"imageName": "tramBadge"
+	},
+	{
+		"id": 2,
+		"name": "Pogromca Autobusów",
+		"description": "Uzyskaj ponad 100 polubień przy zgłoszeniach autobusów.",
+		"date": "20.04.2020",
+		"imageName": "busBadge"
+	},
+	{
+		"id": 3,
+		"name": "Korespondent na medal",
+		"description": "Dodaj ponad 50 zweryfikowanych zgłoszeń.",
+		"date": "20.04.2020",
+		"imageName": "medal"
+	},
+	{
+		"id": 4,
+		"name": "Fotoreporter",
+		"description": "Dodaj ponad 100 zdjęć do swoich zgłoszeń.",
+		"date": "20.04.2020",
+		"imageName": "photo"
+	}
+]

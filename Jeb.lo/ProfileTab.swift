@@ -61,8 +61,9 @@ struct ProfileTab: View {
                     .font(.largeTitle)
                     .padding(.top)
                 
-                List {
-                /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Content@*/Text("Content")/*@END_MENU_TOKEN@*/
+                ForEach(achievementData) { achievement in
+                    AchievementRow(achievement: achievement)
+                    Divider()
                 }
                 
             }.navigationBarTitle("Profil")
