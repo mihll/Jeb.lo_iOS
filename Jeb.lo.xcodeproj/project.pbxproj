@@ -12,6 +12,10 @@
 		054CFDE3244DFC1500E1D1EA /* AchievementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDE2244DFC1500E1D1EA /* AchievementRow.swift */; };
 		054CFDE5244DFC6500E1D1EA /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDE4244DFC6500E1D1EA /* Achievement.swift */; };
 		054CFDEF244E022900E1D1EA /* achievementData.json in Resources */ = {isa = PBXBuildFile; fileRef = 054CFDEE244E022900E1D1EA /* achievementData.json */; };
+		054CFDF5244E0AE500E1D1EA /* UserPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDF4244E0AE500E1D1EA /* UserPosts.swift */; };
+		054CFDF7244E0B3900E1D1EA /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDF6244E0B3900E1D1EA /* PostDetail.swift */; };
+		054CFDF9244E0C6C00E1D1EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDF8244E0C6C00E1D1EA /* MapView.swift */; };
+		054CFDFB244E11CB00E1D1EA /* PostAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDFA244E11CB00E1D1EA /* PostAnnotation.swift */; };
 		059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E124323AD300BF40F5 /* AppDelegate.swift */; };
 		059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E324323AD300BF40F5 /* SceneDelegate.swift */; };
 		059555E624323AD300BF40F5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059555E524323AD300BF40F5 /* MainView.swift */; };
@@ -25,7 +29,6 @@
 		05955616243244BA00BF40F5 /* StatsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955615243244BA00BF40F5 /* StatsTab.swift */; };
 		05955618243244C100BF40F5 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955617243244C100BF40F5 /* ProfileTab.swift */; };
 		0595561A24324B6C00BF40F5 /* LineDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595561924324B6C00BF40F5 /* LineDetails.swift */; };
-		05984229243B7E3F00D29C53 /* UserPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05984228243B7E3F00D29C53 /* UserPosts.swift */; };
 		0598422C243B843800D29C53 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598422B243B843800D29C53 /* Post.swift */; };
 		0598422E243B84EB00D29C53 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598422D243B84EB00D29C53 /* Data.swift */; };
 		05984231243B868100D29C53 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = 05984230243B868100D29C53 /* postData.json */; };
@@ -60,6 +63,10 @@
 		054CFDE2244DFC1500E1D1EA /* AchievementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRow.swift; sourceTree = "<group>"; };
 		054CFDE4244DFC6500E1D1EA /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		054CFDEE244E022900E1D1EA /* achievementData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievementData.json; sourceTree = "<group>"; };
+		054CFDF4244E0AE500E1D1EA /* UserPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPosts.swift; sourceTree = "<group>"; };
+		054CFDF6244E0B3900E1D1EA /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
+		054CFDF8244E0C6C00E1D1EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		054CFDFA244E11CB00E1D1EA /* PostAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAnnotation.swift; sourceTree = "<group>"; };
 		059555DE24323AD300BF40F5 /* Jeb.lo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeb.lo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059555E124323AD300BF40F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059555E324323AD300BF40F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +86,6 @@
 		05955615243244BA00BF40F5 /* StatsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTab.swift; sourceTree = "<group>"; };
 		05955617243244C100BF40F5 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
 		0595561924324B6C00BF40F5 /* LineDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDetails.swift; sourceTree = "<group>"; };
-		05984228243B7E3F00D29C53 /* UserPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPosts.swift; sourceTree = "<group>"; };
 		0598422B243B843800D29C53 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		0598422D243B84EB00D29C53 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		05984230243B868100D29C53 /* postData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postData.json; sourceTree = "<group>"; };
@@ -116,6 +122,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054CFDF0244E0A0300E1D1EA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				054CFDF4244E0AE500E1D1EA /* UserPosts.swift */,
+				05955617243244C100BF40F5 /* ProfileTab.swift */,
+				054CFDE2244DFC1500E1D1EA /* AchievementRow.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		054CFDF1244E0A1800E1D1EA /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				05955615243244BA00BF40F5 /* StatsTab.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		054CFDF2244E0A2100E1D1EA /* Lines */ = {
+			isa = PBXGroup;
+			children = (
+				05955613243244AB00BF40F5 /* LinesTab.swift */,
+				0595561924324B6C00BF40F5 /* LineDetails.swift */,
+			);
+			path = Lines;
+			sourceTree = "<group>";
+		};
+		054CFDF3244E0A3100E1D1EA /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				054CFDFC244E132A00E1D1EA /* Map */,
+				059556112432423D00BF40F5 /* NowTab.swift */,
+				05984236243B8A6600D29C53 /* PostRow.swift */,
+				054CFDF6244E0B3900E1D1EA /* PostDetail.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		054CFDFC244E132A00E1D1EA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				054CFDFA244E11CB00E1D1EA /* PostAnnotation.swift */,
+				054CFDF8244E0C6C00E1D1EA /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		059555D524323AD200BF40F5 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +192,10 @@
 		059555E024323AD300BF40F5 /* Jeb.lo */ = {
 			isa = PBXGroup;
 			children = (
+				054CFDF3244E0A3100E1D1EA /* Posts */,
+				054CFDF2244E0A2100E1D1EA /* Lines */,
+				054CFDF1244E0A1800E1D1EA /* Stats */,
+				054CFDF0244E0A0300E1D1EA /* Profile */,
 				0598422F243B865800D29C53 /* Resources */,
 				0598422A243B834F00D29C53 /* Models */,
 				059555E124323AD300BF40F5 /* AppDelegate.swift */,
@@ -148,14 +205,6 @@
 				059555EC24323AD600BF40F5 /* LaunchScreen.storyboard */,
 				059555EF24323AD600BF40F5 /* Info.plist */,
 				059555E924323AD600BF40F5 /* Preview Content */,
-				059556112432423D00BF40F5 /* NowTab.swift */,
-				05955613243244AB00BF40F5 /* LinesTab.swift */,
-				0595561924324B6C00BF40F5 /* LineDetails.swift */,
-				05955615243244BA00BF40F5 /* StatsTab.swift */,
-				05955617243244C100BF40F5 /* ProfileTab.swift */,
-				05984228243B7E3F00D29C53 /* UserPosts.swift */,
-				054CFDE2244DFC1500E1D1EA /* AchievementRow.swift */,
-				05984236243B8A6600D29C53 /* PostRow.swift */,
 			);
 			path = Jeb.lo;
 			sourceTree = "<group>";
@@ -356,13 +405,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				054CFDE3244DFC1500E1D1EA /* AchievementRow.swift in Sources */,
-				05984229243B7E3F00D29C53 /* UserPosts.swift in Sources */,
 				059555E224323AD300BF40F5 /* AppDelegate.swift in Sources */,
 				05955614243244AB00BF40F5 /* LinesTab.swift in Sources */,
 				0595561A24324B6C00BF40F5 /* LineDetails.swift in Sources */,
+				054CFDF7244E0B3900E1D1EA /* PostDetail.swift in Sources */,
 				0598422E243B84EB00D29C53 /* Data.swift in Sources */,
 				059555E424323AD300BF40F5 /* SceneDelegate.swift in Sources */,
+				054CFDF5244E0AE500E1D1EA /* UserPosts.swift in Sources */,
 				05955618243244C100BF40F5 /* ProfileTab.swift in Sources */,
+				054CFDF9244E0C6C00E1D1EA /* MapView.swift in Sources */,
+				054CFDFB244E11CB00E1D1EA /* PostAnnotation.swift in Sources */,
 				059556122432423D00BF40F5 /* NowTab.swift in Sources */,
 				059555E624323AD300BF40F5 /* MainView.swift in Sources */,
 				05955616243244BA00BF40F5 /* StatsTab.swift in Sources */,

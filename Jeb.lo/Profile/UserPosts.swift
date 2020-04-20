@@ -2,7 +2,7 @@
 //  UserPosts.swift
 //  Jeb.lo
 //
-//  Created by Michał Kierzkowski on 06/04/2020.
+//  Created by Michał Kierzkowski on 20/04/2020.
 //  Copyright © 2020 Michał Kierzkowski. All rights reserved.
 //
 

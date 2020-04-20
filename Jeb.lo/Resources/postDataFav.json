@@ -12,8 +12,8 @@
         "downvotes": 3,
         "imageName": "jeb2",
         "coordinates": {
-            "longitude": 51.111069,
-            "latitude": 17.058670
+            "longitude": 17.058670,
+            "latitude": 51.111069
         }
     },
     {
@@ -29,8 +29,8 @@
         "downvotes": 5,
         "imageName": "jeb1",
         "coordinates": {
-            "longitude": 51.101465,
-            "latitude": 17.029283
+            "longitude": 17.029283,
+            "latitude": 51.101465
         }
     }
 ]

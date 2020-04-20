@@ -12,7 +12,7 @@ struct PostRow: View {
     var post: Post
     
         var body: some View {
-        NavigationLink(destination: NowTab()){
+            NavigationLink(destination: PostDetail(post: post)){
             ZStack(alignment: .bottomLeading){
                 post.image
                     .resizable()
