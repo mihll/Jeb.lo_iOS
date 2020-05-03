@@ -40,21 +40,34 @@ struct ProfileTab: View {
                             .font(.headline)
                         Text("5")
                             .font(.title)
-                        }
-                    }.padding()
+                        }.frame(width: 100)
+                        .background(Color.gray)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                    }
+                    
                     VStack(){
                         Text("Komentarze")
                             .font(.headline)
                         Text("13")
                             .font(.title)
-                    }.padding()
+                    }
+                    .frame(width: 140)
+                    .background(Color.gray)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(10)
+                    
                     
                     VStack(){
                         Text("Ranga")
                             .font(.headline)
                         Text("25")
                             .font(.title)
-                    }.padding()
+                    }
+                    .frame(width: 100)
+                    .background(Color.gray)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(10)
                 }
                 
                 Text("Osiągnięcia")

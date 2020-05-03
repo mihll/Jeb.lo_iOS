@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct UserPosts: View {
+    @State private var userPosts = postData
+    @State private var isShowing = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            List(){
+                ForEach(userPosts){ post in
+                PostRowShort(post: post)
+
+                }
+            }
+             .pullToRefresh(isShowing: $isShowing) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    self.isShowing = false
+                }
+        }.navigationBarTitle("Twoje posty", displayMode: .inline)
     }
 }
 

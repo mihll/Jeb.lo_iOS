@@ -10,7 +10,6 @@ import SwiftUI
 
 struct PostRow: View {
     var post: Post
-    
         var body: some View {
             NavigationLink(destination: PostDetail(post: post)){
             ZStack(alignment: .bottomLeading){
