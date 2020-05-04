@@ -24,7 +24,7 @@ struct ProfileTab: View {
                     VStack(alignment: .leading){
                         Text("mihll")
                             .font(.largeTitle)
-                    
+                        
                         Text("Dołączył:")
                             .font(.subheadline)
                         
@@ -36,14 +36,14 @@ struct ProfileTab: View {
                 HStack(){
                     NavigationLink(destination: UserPosts()){
                         VStack(){
-                        Text("Posty")
-                            .font(.headline)
-                        Text("5")
-                            .font(.title)
+                            Text("Posty")
+                                .font(.headline)
+                            Text("5")
+                                .font(.title)
                         }.frame(width: 100)
-                        .background(Color.gray)
-                        .foregroundColor(Color.white)
-                        .cornerRadius(10)
+                            .background(Color.gray)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(10)
                     }
                     
                     VStack(){
@@ -86,7 +86,7 @@ struct ProfileTab: View {
 
 struct ProfileTab_Previews: PreviewProvider {
     static var previews: some View {
-                ForEach(["iPhone 7","iPhone 11"], id: \.self) { deviceName in
+        ForEach(["iPhone 7","iPhone 11"], id: \.self) { deviceName in
             ProfileTab()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)

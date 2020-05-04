@@ -10,8 +10,8 @@ import SwiftUI
 
 struct PostRow: View {
     var post: Post
-        var body: some View {
-            NavigationLink(destination: PostDetail(post: post)){
+    var body: some View {
+        NavigationLink(destination: PostDetail(post: post)){
             ZStack(alignment: .bottomLeading){
                 post.image
                     .resizable()
@@ -36,14 +36,14 @@ struct PostRow: View {
                                 .fontWeight(.semibold)
                                 .foregroundColor(.white)
                             Image(systemName: "hand.thumbsup.fill")
-                            .foregroundColor(.white)
-                        
+                                .foregroundColor(.white)
+                            
                             Text(String(post.downvotes))
                                 .fontWeight(.semibold)
                                 .foregroundColor(.white)
-
+                            
                             Image(systemName: "hand.thumbsdown.fill")
-                            .foregroundColor(.white)
+                                .foregroundColor(.white)
                         }.padding(.trailing, 32.0)
                     }
                     Text(post.place)

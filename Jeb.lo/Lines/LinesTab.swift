@@ -29,7 +29,7 @@ struct LinesTab: View {
 
 struct LinesTab_Previews: PreviewProvider {
     static var previews: some View {
-         ForEach(["iPhone 7","iPhone 11"], id: \.self) { deviceName in
+        ForEach(["iPhone 7","iPhone 11"], id: \.self) { deviceName in
             LinesTab()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)

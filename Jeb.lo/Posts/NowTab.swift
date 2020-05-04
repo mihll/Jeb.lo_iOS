@@ -22,14 +22,14 @@ struct NowTab: View {
                 
                 List(){
                     ForEach(selectedOption){ post in
-                    PostRow(post: post)
-                    .listRowInsets(EdgeInsets())
+                        PostRow(post: post)
+                            .listRowInsets(EdgeInsets())
                     }
                 }.padding(.trailing, -32.0)
-                 .pullToRefresh(isShowing: $isShowing) {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        self.isShowing = false
-                    }
+                    .pullToRefresh(isShowing: $isShowing) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                            self.isShowing = false
+                        }
                 }
                 
             }.navigationBarTitle("Teraz")

@@ -73,7 +73,10 @@ struct PostDetail: View {
             }.padding()
             
             HStack(){
-                NavigationLink(destination: PostPhotos(post: post)){
+                NavigationLink(destination: Gallery(photoPages: [
+                    PageViewData(pageImage: post.image)
+                ]))
+                {
                     Text("Zdjęcia")
                         .frame(width: 150, height: 50)
                         .background(Color.gray)

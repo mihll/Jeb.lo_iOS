@@ -10,9 +10,18 @@ import SwiftUI
 
 struct LineDetails: View {
     let line: Line
+    @State private var userPosts = postData
+    @State private var isShowing = false
     var body: some View {
-        VStack(){
-            Text("Line details")
+        List(){
+            ForEach(userPosts){ post in
+                PostRowShort(post: post)
+            }
+        }
+        .pullToRefresh(isShowing: $isShowing) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                self.isShowing = false
+            }
         }.navigationBarTitle(Text(line.id), displayMode: .inline)
     }
 }

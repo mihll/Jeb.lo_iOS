@@ -12,16 +12,16 @@ struct UserPosts: View {
     @State private var userPosts = postData
     @State private var isShowing = false
     var body: some View {
-            List(){
-                ForEach(userPosts){ post in
+        List(){
+            ForEach(userPosts){ post in
                 PostRowShort(post: post)
-
-                }
+                
             }
-             .pullToRefresh(isShowing: $isShowing) {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    self.isShowing = false
-                }
+        }
+        .pullToRefresh(isShowing: $isShowing) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                self.isShowing = false
+            }
         }.navigationBarTitle("Twoje posty", displayMode: .inline)
     }
 }

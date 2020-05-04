@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MainView: View {
     @State private var selection = 0
- 
+    
     var body: some View {
         TabView(selection: $selection){
             NowTab()
@@ -19,8 +19,8 @@ struct MainView: View {
                         Image(systemName: "flame.fill")
                         Text("Teraz")
                     }
-                }
-                .tag(0)
+            }
+            .tag(0)
             
             LinesTab()
                 .tabItem {
@@ -28,8 +28,8 @@ struct MainView: View {
                         Image(systemName: "tram.fill")
                         Text("Linie")
                     }
-                }
-                .tag(1)
+            }
+            .tag(1)
             
             StatsTab()
                 .tabItem {
@@ -37,8 +37,8 @@ struct MainView: View {
                         Image(systemName: "speedometer")
                         Text("Statystyki")
                     }
-                }
-                .tag(2)
+            }
+            .tag(2)
             
             ProfileTab()
                 .tabItem {
@@ -46,8 +46,8 @@ struct MainView: View {
                         Image(systemName: "person.fill")
                         Text("Profil")
                     }
-                }
-                .tag(3)
+            }
+            .tag(3)
         }
     }
 }
@@ -58,6 +58,7 @@ struct MainView_Previews: PreviewProvider {
             MainView()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
+                .environmentObject(CommentsController())
         }
     }
 }
