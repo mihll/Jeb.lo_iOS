@@ -10,7 +10,8 @@ import SwiftUI
 import SwiftUIRefresh
 
 struct NowTab: View {
-    @State private var selectedOption = postData
+    @State private var selectedOption = [Post]();
+    @State private var downloadedData = [Post]();
     @State private var isShowing = false
     var body: some View {
         NavigationView(){
@@ -21,19 +22,43 @@ struct NowTab: View {
                 }.padding().pickerStyle(SegmentedPickerStyle())
                 
                 List(){
-                    ForEach(selectedOption){ post in
+                    ForEach(downloadedData){ post in
                         PostRow(post: post)
                             .listRowInsets(EdgeInsets())
                     }
                 }.padding(.trailing, -32.0)
-                    .pullToRefresh(isShowing: $isShowing) {
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                            self.isShowing = false
-                        }
+                 .onAppear(perform: loadData)
+                 .pullToRefresh(isShowing: $isShowing) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                        self.isShowing = false
+                    }
                 }
                 
             }.navigationBarTitle("Teraz")
         }
+    }
+    
+    func loadData() {
+        guard let url = URL(string: "https://jeblo-back-stage.herokuapp.com/posts/") else {
+            print("Invalid URL")
+            return
+        }
+        
+        let request = URLRequest(url: url)
+        print("Request started")
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let data = data {
+                if let decodedResponse = try? JSONDecoder().decode([Post].self, from: data) {
+                    DispatchQueue.main.async {
+                        self.downloadedData = decodedResponse
+                    }
+                    
+                    return
+                }
+            }
+            print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
+        }.resume()
     }
     
 }

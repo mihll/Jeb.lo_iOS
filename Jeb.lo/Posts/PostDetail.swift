@@ -16,26 +16,18 @@ struct PostDetail: View {
                 .frame(height: 200)
             
             HStack(){
-                VStack(alignment: .center){
-                    Text("Przystanek")
-                        .font(.headline)
-                    Text(post.stop)
-                        .font(.subheadline)
-                        .multilineTextAlignment(.center)
-                }.padding()
-                
                 VStack(){
-                    Text("Linia")
+                    Text("Linie")
                         .font(.headline)
                         .multilineTextAlignment(.center)
-                    Text(post.line)
+                    Text(post.linesBlocked[0])
                         .font(.subheadline)
                 }.padding()
                 
                 VStack(alignment: .center){
                     Text("Dodano")
                         .font(.headline)
-                    Text(post.addedDate)
+                    Text(post.postedDate.description)
                         .font(.subheadline)
                         .multilineTextAlignment(.center)
                 }.frame(maxWidth: 100)
@@ -43,7 +35,7 @@ struct PostDetail: View {
             }
             
             HStack(){
-                Text(String(post.upvotes))
+                Text(String(post.likes))
                     .font(.title)
                     .fontWeight(.semibold)
                 Image(systemName: "hand.thumbsup")
@@ -51,7 +43,7 @@ struct PostDetail: View {
                     .font(.title)
                 
                 
-                Text(String(post.downvotes))
+                Text(String(post.dislikes))
                     .font(.title)
                     .fontWeight(.semibold)
                     .padding(.leading)
@@ -65,7 +57,7 @@ struct PostDetail: View {
                     Text("Opis")
                         .font(.title)
                         .padding(.bottom)
-                    Text(post.description)
+                    Text("test")
                         .font(.subheadline)
                         .multilineTextAlignment(.leading)
                 }
@@ -94,7 +86,7 @@ struct PostDetail: View {
             }
             .padding(.top)
             
-        }.navigationBarTitle(Text(post.place), displayMode: .inline)
+        }.navigationBarTitle(Text(post.title), displayMode: .inline)
     }
 }
 

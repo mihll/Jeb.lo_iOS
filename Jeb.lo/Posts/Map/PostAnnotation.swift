@@ -8,7 +8,7 @@ final class PostAnnotation: NSObject, MKAnnotation {
 
     init(post: Post) {
         self.id = post.id
-        self.title = post.place
+        self.title = post.title
         self.coordinate = post.locationCoordinate
     }
 }

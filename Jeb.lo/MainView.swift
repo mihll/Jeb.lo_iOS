@@ -30,7 +30,7 @@ struct MainView: View {
                     }
             }
             .tag(1)
-            
+              
             StatsTab()
                 .tabItem {
                     VStack {

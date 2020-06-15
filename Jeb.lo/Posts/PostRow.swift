@@ -24,7 +24,7 @@ struct PostRow: View {
                 
                 VStack(alignment: .leading){
                     HStack() {
-                        Text(post.status + " - " + post.line)
+                        Text(post.statusPost + " - " + post.linesBlocked[0])
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
                             .padding(.leading)
@@ -32,13 +32,13 @@ struct PostRow: View {
                         Spacer()
                         
                         HStack(){
-                            Text(String(post.upvotes))
+                            Text(String(post.likes))
                                 .fontWeight(.semibold)
                                 .foregroundColor(.white)
                             Image(systemName: "hand.thumbsup.fill")
                                 .foregroundColor(.white)
                             
-                            Text(String(post.downvotes))
+                            Text(String(post.dislikes))
                                 .fontWeight(.semibold)
                                 .foregroundColor(.white)
                             
@@ -46,7 +46,7 @@ struct PostRow: View {
                                 .foregroundColor(.white)
                         }.padding(.trailing, 32.0)
                     }
-                    Text(post.place)
+                    Text(post.title)
                         .font(.title)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)

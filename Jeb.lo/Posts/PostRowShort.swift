@@ -21,25 +21,25 @@ struct PostRowShort: View {
                     .cornerRadius(10)
                 
                 VStack(alignment: .leading){
-                    Text(post.place)
+                    Text(post.title)
                         .font(.headline)
                         .lineLimit(1)
-                    Text(post.addedDate)
+                    Text(post.postedDate.description)
                         .font(.footnote)
                     
                     HStack(){
-                        Text(post.status)
+                        Text(post.statusPost)
                             .font(.footnote)
                         
                         Spacer()
                         
-                        Text(String(post.upvotes))
+                        Text(String(post.likes))
                             .font(.footnote)
                         
                         Image(systemName: "hand.thumbsup.fill")
                             .font(.footnote)
                         
-                        Text(String(post.downvotes))
+                        Text(String(post.dislikes))
                             .font(.footnote)
                         
                         Image(systemName: "hand.thumbsdown.fill")

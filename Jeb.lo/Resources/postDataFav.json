@@ -1,36 +1,80 @@
 [
     {
-        "id": 1003,
-        "place": "Plac Grunwaldzki od strony mostu",
-        "status": "Zakończony",
-        "stop": "Plac Grunwaldzki",
-        "line": "4",
-        "addedDate": "19:30, 20-03-2020",
-        "addedUser": "mihll",
-        "description": "Ojojoj co tu się stało.",
-        "upvotes": 15,
-        "downvotes": 3,
-        "imageName": "jeb2",
-        "coordinates": {
-            "longitude": 17.058670,
-            "latitude": 51.111069
-        }
+        "id": 102,
+        "title": "Azyl? NIE!!! Azaliowa...",
+        "postedDate": "2020-02-03T15:06:56",
+        "statusPost": "AKTUALNE",
+        "authorUsername": "presiden69",
+        "linesBlocked": [
+            "15"
+        ],
+        "likes": 2,
+        "dislikes": 1,
+        "urlPhotos": [
+            "https://d-pt.ppstatic.pl/kadry/k/r/1/66/97/5a26afa7392a0_o,size,640x400,q,71,h,7e437c.jpg",
+            "https://www.wroclaw.pl/files/cmsdocuments/6609249/wypadek%20mickiewicza1.jpg"
+        ],
+        "numberOfComments": 1,
+        "latitude": 51.16418,
+        "longitude": 17.111937
     },
     {
-        "id": 1001,
-        "place": "Arkady od strony Renomy",
-        "status": "Aktualny",
-        "stop": "Arkady Capitol",
-        "line": "0L",
-        "addedDate": "18:30, 20-03-2020",
-        "addedUser": "mihll",
-        "description": "Ojojoj co tu się stało.",
-        "upvotes": 10,
-        "downvotes": 5,
-        "imageName": "jeb1",
-        "coordinates": {
-            "longitude": 17.029283,
-            "latitude": 51.101465
-        }
+        "id": 104,
+        "title": "Błoto się wylało na bzowej :O",
+        "postedDate": "2020-02-03T15:06:56",
+        "statusPost": "AKTUALNE",
+        "authorUsername": "ttetho",
+        "linesBlocked": [
+            "4",
+            "5",
+            "11"
+        ],
+        "likes": 1,
+        "dislikes": 4,
+        "urlPhotos": [
+            "https://bi.im-g.pl/im/9f/57/18/z25523871V,Smiertelny-wypadek-na-Baltyckiej--Piesza-potracona.jpg"
+        ],
+        "numberOfComments": 2,
+        "latitude": 51.097866,
+        "longitude": 16.993462
+    },
+    {
+        "id": 103,
+        "title": "I po wyprzedażach!!! Rondo padło.",
+        "postedDate": "2020-02-03T13:06:56",
+        "statusPost": "ZAKOŃCZONE",
+        "authorUsername": "Galore89",
+        "linesBlocked": [
+            "10"
+        ],
+        "likes": 2,
+        "dislikes": 0,
+        "urlPhotos": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOHBbNGxFKAFFLVNHeaunaz1tiKPOKO7Ts1VS7WFX1SoMJ9z_6&usqp=CAU"
+        ],
+        "numberOfComments": 1,
+        "latitude": 51.090218,
+        "longitude": 17.016401
+    },
+    {
+        "id": 101,
+        "title": "PLAC GRUNWALDZKI!",
+        "postedDate": "2020-02-02T17:06:56",
+        "statusPost": "ZAKOŃCZONE",
+        "authorUsername": "bkrych",
+        "linesBlocked": [
+            "4",
+            "10"
+        ],
+        "likes": 2,
+        "dislikes": 1,
+        "urlPhotos": [
+            "http://zm.org.pl/img/img.097/wroclaw-097-017.jpg",
+            "https://miejscawewroclawiu.pl/wp-content/uploads/2019/10/wypadek-wro-960x675.jpg",
+            "https://d-pt.ppstatic.pl/kadry/k/r/5/fa/23/4fbcade86fc16_o,size,640x400,q,71,h,520207.jpg"
+        ],
+        "numberOfComments": 3,
+        "latitude": 51.11175,
+        "longitude": 17.060644
     }
 ]
