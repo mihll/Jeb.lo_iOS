@@ -7,13 +7,16 @@
 //
 
 import SwiftUI
+import RemoteImage
 
 struct PostRow: View {
     var post: Post
     var body: some View {
         NavigationLink(destination: PostDetail(post: post)){
             ZStack(alignment: .bottomLeading){
-                post.image
+                
+                RemoteImage(type: .url(URL(string: post.urlPhotos[0])!), errorView: { error in
+                    Image("no-photo")
                     .resizable()
                     .scaledToFill()
                     .frame(maxHeight: 250)
@@ -21,6 +24,25 @@ struct PostRow: View {
                     .overlay(Rectangle()
                         .fill(LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom))
                         .clipped())
+                }, imageView: { image in
+                    image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(maxHeight: 250)
+                    .clipped()
+                    .overlay(Rectangle()
+                        .fill(LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom))
+                        .clipped())
+                }, loadingView: {
+                    Image("no-photo")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(maxHeight: 250)
+                    .clipped()
+                    .overlay(Rectangle()
+                        .fill(LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom))
+                        .clipped())
+                })
                 
                 VStack(alignment: .leading){
                     HStack() {

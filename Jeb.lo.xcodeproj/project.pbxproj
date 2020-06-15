@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05133D382497CE77003FC0D1 /* RemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = 05133D372497CE77003FC0D1 /* RemoteImage */; };
 		054CFDDF244DF21A00E1D1EA /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDDE244DF21A00E1D1EA /* Line.swift */; };
 		054CFDE1244DF69D00E1D1EA /* lineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 054CFDE0244DF69D00E1D1EA /* lineData.json */; };
 		054CFDE3244DFC1500E1D1EA /* AchievementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CFDE2244DFC1500E1D1EA /* AchievementRow.swift */; };
@@ -123,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05133D382497CE77003FC0D1 /* RemoteImage in Frameworks */,
 				05A41EB624325627005F7380 /* SwiftUIRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +337,7 @@
 			name = Jeb.lo;
 			packageProductDependencies = (
 				05A41EB524325627005F7380 /* SwiftUIRefresh */,
+				05133D372497CE77003FC0D1 /* RemoteImage */,
 			);
 			productName = Jeb.lo;
 			productReference = 059555DE24323AD300BF40F5 /* Jeb.lo.app */;
@@ -410,6 +413,7 @@
 			mainGroup = 059555D524323AD200BF40F5;
 			packageReferences = (
 				05A41EB424325627005F7380 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */,
+				05133D362497CE77003FC0D1 /* XCRemoteSwiftPackageReference "RemoteImage" */,
 			);
 			productRefGroup = 059555DF24323AD300BF40F5 /* Products */;
 			projectDirPath = "";
@@ -816,6 +820,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		05133D362497CE77003FC0D1 /* XCRemoteSwiftPackageReference "RemoteImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/RemoteImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 		05A41EB424325627005F7380 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/timbersoftware/SwiftUIRefresh.git";
@@ -827,6 +839,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		05133D372497CE77003FC0D1 /* RemoteImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05133D362497CE77003FC0D1 /* XCRemoteSwiftPackageReference "RemoteImage" */;
+			productName = RemoteImage;
+		};
 		05A41EB524325627005F7380 /* SwiftUIRefresh */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 05A41EB424325627005F7380 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */;

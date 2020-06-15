@@ -10,8 +10,12 @@ import SwiftUI
 
 struct PostDetail: View {
     var post: Post
+    var urls : [PageViewData]?
+    init() {
+       urls = post.urlPhotos.map {PageViewData(photoUrl: $0)}
+    }
     var body: some View {
-        ScrollView(){
+        ScrollView() {
             MapView(post: post)
                 .frame(height: 200)
             
@@ -65,9 +69,7 @@ struct PostDetail: View {
             }.padding()
             
             HStack(){
-                NavigationLink(destination: Gallery(photoPages: [
-                    PageViewData(pageImage: post.image)
-                ]))
+                NavigationLink(destination: Gallery(photoPages: urls!))
                 {
                     Text("Zdjęcia")
                         .frame(width: 150, height: 50)
